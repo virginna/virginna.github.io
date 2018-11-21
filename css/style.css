@@ -134,6 +134,9 @@ main {
 
 
 }
+.article_column {
+    align-items: center;
+}
 .mainArticleManager__arrow-left {
     background: #7c7c7c;
     order: 1;
@@ -147,10 +150,16 @@ main {
     width: 33.3%;
     padding: 10px;
     box-sizing: border-box;
-}
+    }
 .articles {
     display: flex;
     flex-wrap: wrap;
+    }
+.article_date {
+    padding: 5px 0px 5px 0px;
+}
+.article_column {
+    text-align: justify;
 }
 .sidebar {
     /*height: 200px;*/
@@ -173,20 +182,23 @@ main {
 }
 .footerText {
     color: white;
+    align-self: center;
     text-align: center;
     padding: 20px;
+
 }
 .footerIcons {
     height: 20px;
-    float: right;
+    /*float: right;*/
 }
 .social {
     list-style: none;
-    margin: none;
-    padding: none;
+    /*margin: none;*/
+    /*padding: none;*/
     display: flex;
 
 }
 .social li {
     margin-left: 5px;
+    margin-top: 20px;
 }
