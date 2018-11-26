@@ -49,8 +49,10 @@ li.headerMenu__item-active a {
     color: white;
 }
 .headerMenu__item a {
+    /*display: inline-block;*/
     color: #373737;
     text-decoration: none;
+    padding: 12px 24px;
 }
 
 .mainBunner {
@@ -328,7 +330,7 @@ main {
 
 }
 
-.sidebarBlock3Text__form1 {
+.sidebarBlock3Text__form1 input {
     display: flex;
     flex-wrap: wrap;
     width: 258px;
@@ -345,7 +347,7 @@ main {
     padding-top: 5px;
 }
 
-.sidebarBlock3Text__form2 {
+.sidebarBlock3Text__form2  input {
     display: flex;
     flex-wrap: wrap;
     width: 258px;
