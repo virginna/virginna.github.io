@@ -33,7 +33,7 @@ header {
 .headerMenu__item {
     display: inline-block;
     list-style: none;
-    padding: 12px 24px;
+    /*padding: 12px 24px;*/
 }
 
 .headerMenu__item:hover {
