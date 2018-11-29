@@ -6,6 +6,13 @@ body {
     font-family: arial, sans-serif;
     color: #5d5d5d;
 }
+a {
+    color: grey;
+}
+
+p {
+    margin: 0 0 0;
+}
 
 .mainBunnerImgContent img {
     width: 100%;
@@ -36,7 +43,7 @@ header {
     margin: 0;
 }
 .menuIcon1:hover, .menuIcon2:hover, .menuIcon3:hover, .menuIcon4:hover {
-    color: blue;
+    color: grey;
 }
 
 .headerMenu__item {
@@ -124,11 +131,11 @@ main {
     }
 .gradientBlock {
     position: relative;
-    width: 320px;
-    height: 240px;
+    width: 84%;
+    height: 84%;
     top: 5px;
     left: 8px;
-    margin: 0 auto;
+    margin: 0 15px 0 0;
     padding: 0;
 }
 .pad {
@@ -203,13 +210,13 @@ main {
 .sidebar {
     /*height: 200px;*/
     width: 30%;
-    display: flex;
+    /*display: flex;*/
     /*margin: 10px;*/
     /*background: grey;*/
 }
 .sidebarImage {
-    display: flex;
-    flex-direction: column;
+    /*display: flex;*/
+    /*flex-direction: column;*/
 }
 .sideBarBlock1 {
     /*width: 30%px;*/
@@ -431,9 +438,17 @@ main {
     .headerMenu:hover ul {
         display: block;
     }
+    .main {
+        display: block;
+        /*display: inline-block;*/
+    }
 
     .mainBunner {
         flex-direction: column;
+
+    }
+    .gradientBlock {
+        width: 45%;
 
     }
 
