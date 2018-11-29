@@ -438,7 +438,7 @@ main {
     .headerMenu:hover ul {
         display: block;
     }
-    .main {
+    main {
         display: block;
         /*display: inline-block;*/
     }
@@ -468,8 +468,19 @@ main {
     .mainBunnerTextblock p {
         font-size: 20px;
     }
-
-        .sidebarImage {
+    .articlesBlock {
+        width: 100%;
+    }
+    .sidebar {
+        width: 100%;
+    }
+    .sidebarImage {
+        display: flex;
+    }
+    .sideBarBlock1, .sideBarBlock2, .sideBarBlock3 {
+        width: 33%;
+    }
+    .sidebar_images {
         display: inline;
     }
 
