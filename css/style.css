@@ -224,8 +224,9 @@ main {
     background-color: white;
     border: 1px solid #a1a1a1;
     position: relative;
-    margin: 0;
+    /*margin: 0;*/
     padding: 0;
+    margin: 20px 0 10px 10px;
 }
 
 .sideBarBlock1__text h4 {
@@ -256,6 +257,7 @@ main {
     position: absolute;
     right: 50px;
     bottom: 15px;
+
 }
 .sideBarBlock2 {
     /*width: 30%;*/
@@ -263,6 +265,7 @@ main {
     background-color: #86e7f0;
     position: relative;
     margin-top: 30px;
+    margin: 20px 0 10px 10px;
 
 }
 .sideBarBlock2_circleNumber {
@@ -330,9 +333,9 @@ main {
     margin-top: -7px;
 }
 .sidebarBlock3 {
-    /*width: 320px;*/
     background-color: #393a39;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
+    margin: 20px 0 10px 10px;
     position: relative;
 }
 
@@ -356,7 +359,7 @@ main {
 }
 
 .sidebarBlock3Text__form1 input {
-    width: 258px;
+    width: 80%;
     height: 30px;
     background-color: white;
     color: #a3a3a3;
@@ -388,10 +391,10 @@ main {
 }
 .footer {
     /*height: 50px;*/
-    width: 100%;
+    /*width: 100%;*/
     padding: 10px;
     background-color: #373737;
-    margin: 0 -10px 0 10px;
+    margin: 0 -2px 0 10px;
     display: flex;
     justify-content: space-between;
 
@@ -442,7 +445,9 @@ main {
         display: block;
         /*display: inline-block;*/
     }
-
+    .gradientBlock {
+        display: none;
+    }
     .mainBunner {
         flex-direction: column;
 
@@ -476,10 +481,21 @@ main {
     }
     .sidebarImage {
         display: flex;
+       flex-direction: column;
     }
-    .sideBarBlock1, .sideBarBlock2, .sideBarBlock3 {
-        width: 33%;
-    }
+
+    /*.sideBarBlock1, .sideBarBlock2, .sideBarBlock3 {*/
+        /*max-width: 30%;*/
+    /*}*/
+    /*.sidebarBlock1 {*/
+        /*max-width: 30%;*/
+    /*}*/
+    /*.sidebarBlock2 {*/
+        /*max-width: 30%;*/
+    /*}*/
+    /*.sidebarBlock3 {*/
+        /*max-width: 30%;*/
+    /*}*/
     .sidebar_images {
         display: inline;
     }
