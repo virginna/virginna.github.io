@@ -109,7 +109,7 @@ li.headerMenu__item-active a {
 }
 
 .mainBunnerImgContent {
-    width: 700px;
+    /*width: 700px;*/
 }
 /*end of main bunner block*/
 
@@ -131,8 +131,7 @@ main {
     }
 .gradientBlock {
     position: relative;
-    width: 84%;
-    height: 84%;
+    /*max-width: 30%;*/
     top: 5px;
     left: 8px;
     margin: 0 15px 0 0;
@@ -163,6 +162,7 @@ main {
     margin-left: auto;
  }
 .mainArticleContent {
+    /*max-width: 40%;*/
     text-align: justify;
     display: flex;
     flex-direction: column;
@@ -435,18 +435,20 @@ main {
     .burgerMenu {
         display: block;
         position: relative;
-
+        align-items: left;
+        margin-left: 50px;
     }
 
     .headerMenu:hover ul {
         display: block;
+
     }
     main {
         display: block;
         /*display: inline-block;*/
     }
     .gradientBlock {
-        display: none;
+        /*display: none;*/
     }
     .mainBunner {
         flex-direction: column;
@@ -454,6 +456,11 @@ main {
     }
     .gradientBlock {
         width: 45%;
+
+    }
+    .mainArticle {
+        display: flex;
+        flex-direction: column;
 
     }
 
