@@ -131,23 +131,23 @@ main {
     }
 .gradientBlock {
     position: relative;
-    /*max-width: 30%;*/
-    top: 5px;
-    left: 8px;
+   /*max-width: 30%;*/
+    /*top: 5px;*/
+    /*left: 8px;*/
     margin: 0 15px 0 0;
     padding: 0;
 }
-.pad {
-    position: absolute;
-    left: 45px;
-    bottom: 50px;
-}
-
 .pad1 {
     position: absolute;
-    right: 40px;
-    bottom: 45px;
+    right: 10%;
+    bottom: 20%;
 }
+.pad {
+    position: absolute;
+    left: 15%;
+    bottom: 20%;
+}
+
 /*.mainArticle__img {*/
     /*width: 310px;*/
     /*min-width: 310px;*/
@@ -264,7 +264,7 @@ main {
     /*height: 260px;*/
     background-color: #86e7f0;
     position: relative;
-    margin-top: 30px;
+    /*margin-top: 30px;*/
     margin: 20px 0 10px 10px;
 
 }
@@ -435,7 +435,7 @@ main {
     .burgerMenu {
         display: block;
         position: relative;
-        align-items: left;
+        align-items: flex-start;
         margin-left: 50px;
     }
 
