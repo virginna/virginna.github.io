@@ -130,12 +130,12 @@ main {
     display: flex;
     }
 .gradientBlock {
+    display: block;
+    width: 100%;
+    height: auto;
     position: relative;
-   /*max-width: 30%;*/
-    /*top: 5px;*/
-    /*left: 8px;*/
-    margin: 0 15px 0 0;
-    padding: 0;
+    margin: 0 2% 0 2%;
+
 }
 .pad1 {
     position: absolute;
@@ -420,7 +420,7 @@ main {
     font-size: 40px;
     background-color: #373737;
   }
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 780px) {
     .headerMenu ul {
         display: none;
         font-size: 20px;
@@ -429,7 +429,7 @@ main {
     }
 
     body {
-        font-family: 'Cuprum';
+        font-family: 'Cuprum', arial, sans-serif;
     }
 
     .burgerMenu {
@@ -447,21 +447,43 @@ main {
         display: block;
         /*display: inline-block;*/
     }
-    .gradientBlock {
-        /*display: none;*/
-    }
-    .mainBunner {
+       .mainBunner {
         flex-direction: column;
 
     }
     .gradientBlock {
-        width: 45%;
+        /*align: center;*/
+        /*margin-left: 30%;*/
+        position: relative;
+        max-width: 100%;
+        height: auto;
+        float: left;
 
+    }
+    .gradientBlock img {
+    width: 100%;
+    }
+
+
+    .pad {
+        width: 20%;
+        position: absolute;
+        left: 10%;
+        bottom: 20%;
+    }
+    .pad1 {
+        width: 40%;
+        position: absolute;
+        left: 40%;
+        bottom: 20%;
     }
     .mainArticle {
         display: flex;
         flex-direction: column;
 
+    }
+    .mainArticleContent {
+        margin: 3%;
     }
 
     .mainBunnerTextBlock {
@@ -514,5 +536,8 @@ main {
         font-size: 20px;
 
     }
+
+}
+@media screen and (max-width: 830px) {
 
 }
